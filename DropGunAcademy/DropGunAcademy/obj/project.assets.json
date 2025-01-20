@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy.csproj",
+      "projectUniqueName": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy.csproj",
       "projectName": "DropGunAcademy",
-      "projectPath": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy.csproj",
+      "projectPath": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy.csproj",
       "packagesPath": "C:\\Users\\denner.borba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\obj\\",
+      "outputPath": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

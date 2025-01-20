@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\",
+  "WorkspaceRootPath": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\source\\repos\\dropgunacademy\\dropgunacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\documents\\github\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\source\\repos\\dropgunacademy\\dropgunacademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\documents\\github\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\documents\\github\\dropgunacademy\\dropgunacademy\\dropgunacademy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\denner.borba\\documents\\github\\dropgunacademy\\dropgunacademy\\dropgunacademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,33 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DropGunAcademy\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DropGunAcademy\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-20T23:43:50.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DropGunAcademy\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DropGunAcademy\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T23:41:37.885Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DropGunAcademy\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-20T22:34:50.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Program.cs",
               "RelativeDocumentMoniker": "DropGunAcademy\\Program.cs",
-              "ToolTip": "C:\\Users\\denner.borba\\source\\repos\\DropGunAcademy\\DropGunAcademy\\Program.cs",
+              "ToolTip": "C:\\Users\\denner.borba\\Documents\\GitHub\\DropgunAcademy\\DropGunAcademy\\DropGunAcademy\\Program.cs",
               "RelativeToolTip": "DropGunAcademy\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T22:34:35.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T22:34:35.266Z"
             }
           ]
         }
