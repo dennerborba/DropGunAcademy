@@ -1,4 +1,4 @@
-﻿namespace DropGunAcademy.Models
+﻿namespace DropGunAcademy.Models.Aulas
 {
     public class AulasModel
     {
