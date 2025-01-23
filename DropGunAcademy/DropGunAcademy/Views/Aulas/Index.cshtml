@@ -1,0 +1,24 @@
+﻿@using DropGunAcademy.Models.Aulas
+@model AulasModel
+
+<div class="text-center">
+    <table class="">
+        <thead>
+            <tr>
+                <th>ID aula</th>
+                <th>Aula de aviação</th>
+                <th>Data da aula</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var aula in Model.Aulas)
+            {
+                <tr>
+                    <td>@aula.Id</td>
+                    <td>@aula.NomeAula</td>
+                    <td>@aula.DataAula</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
