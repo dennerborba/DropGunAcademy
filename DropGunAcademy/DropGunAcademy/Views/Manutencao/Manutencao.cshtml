@@ -1,0 +1,34 @@
+﻿@using DropGunAcademy.Models
+@model DropGunAcademy.Models.ManutencoesModel
+
+@{
+	ViewData["Title"] = "Manutenção";
+}
+<div class="text-center">
+	<table class="table table-hover table-light">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Aeronave</th>
+                <th scope="col">Inicio</th>
+                <th scope="col">Conclusão</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Técnico Responsável</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Manutencao in Model.Manutecoes){
+            <tr>
+                <th scope="row">@Manutencao.Id</th>
+                <td>@Manutencao.IdAeronave</td>
+                <td>@Manutencao.DataInicio</td>
+                <td>@Manutencao.DataConclusao</td>
+                <td>@Manutencao.Descricao</td>
+                <td>@Manutencao.TecResp</td>
+            </tr>
+            }
+        </tbody>
+	</table>
+</div>
+
+
