@@ -1,0 +1,74 @@
+﻿@using DropGunAcademy.Models.Estudante;
+@model EstudanteModel
+<div class="container mt-5">
+    <h2>Alunos</h2>
+    <form>
+        <div class="row">
+            <!-- Campo de Nome -->
+            <div class="col-md-8">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" asp-for="nome" placeholder="Digite seu nome" />
+                </div>                
+            </div>  
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <select class="form-select" asp-for="status" aria-label="Status">
+                        <option selected>Selecione o Status</option>
+                        <option value="1">Ativo</option>
+                        <option value="0">Inativo</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <!-- Linha para Nome e Placa -->
+        <div class="row">
+            <!-- Campo de CPF -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf" asp-for="cpf" placeholder="Digite o número do CPF">
+                </div>
+            </div>
+            <!-- Data de Nascimento -->     
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="dataNascimento" class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="dataNascimento" asp-for="dataNascimento" placeholder="Digite a data de nascimento">
+                </div>
+            </div>            
+        </div>
+
+        
+        <!-- Campo de Endeereço -->
+        <div class="col-md-12">
+            <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="endereco" asp-for="endereco" placeholder="Digite o endereço" />
+            </div>
+        </div>
+
+        <!-- Linha para Telefone e E-mail -->
+        <div class="row">
+            <!-- Campo de telefone -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" id="telefone" asp-for="telefone" placeholder="Digite o número do telefone" />
+                </div>
+            </div>
+            <!-- Campo de E-mail -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="text" class="form-control" id="email" asp-for="email" placeholder="Digite o e-mail">
+                </div>
+            </div>
+        </div>
+
+        <!-- Botão de Enviar -->        
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Voltar</a>
+    </form>
+</div>
