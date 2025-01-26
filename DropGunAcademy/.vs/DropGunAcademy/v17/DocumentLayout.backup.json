@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\estudante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\estudante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\controllers\\estudante\\estudantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\controllers\\estudante\\estudantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\estudante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\estudante\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\estudante\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\estudante\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\views\\estudante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\views\\estudante\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\controllers\\estudante\\estudantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|solutionrelative:dropgunacademy\\controllers\\estudante\\estudantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D31036E-AAE4-4543-8965-C071693043E9}|DropGunAcademy\\DropGunAcademy.csproj|c:\\users\\h\u00E9lio\\onedrive - senac-sc\\gitrepro\\dropgunacademy\\dropgunacademy\\dropgunacademy\\models\\estudante\\estudantemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,37 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Estudante\\Create.cshtml",
               "RelativeDocumentMoniker": "DropGunAcademy\\Views\\Estudante\\Create.cshtml",
               "ToolTip": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Estudante\\Create.cshtml",
               "RelativeToolTip": "DropGunAcademy\\Views\\Estudante\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-26T01:30:19.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Estudante\\Editar.cshtml",
               "RelativeDocumentMoniker": "DropGunAcademy\\Views\\Estudante\\Editar.cshtml",
               "ToolTip": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Estudante\\Editar.cshtml",
               "RelativeToolTip": "DropGunAcademy\\Views\\Estudante\\Editar.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-22T22:25:32.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Views\\Estudante\\Index.cshtml",
               "RelativeDocumentMoniker": "DropGunAcademy\\Views\\Estudante\\Index.cshtml",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EstudanteController.cs",
               "DocumentMoniker": "C:\\Users\\H\u00E9lio\\OneDrive - SENAC-SC\\GitRepro\\DropGunAcademy\\DropGunAcademy\\DropGunAcademy\\Controllers\\Estudante\\EstudanteController.cs",
               "RelativeDocumentMoniker": "DropGunAcademy\\Controllers\\Estudante\\EstudanteController.cs",
@@ -93,8 +93,7 @@
               "RelativeToolTip": "DropGunAcademy\\Controllers\\Estudante\\EstudanteController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAUwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T22:01:39.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T22:01:39.096Z"
             },
             {
               "$type": "Document",
