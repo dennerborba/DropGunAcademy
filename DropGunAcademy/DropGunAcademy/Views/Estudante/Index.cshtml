@@ -1,24 +1,25 @@
 ﻿@using DropGunAcademy.Models.Estudante
 <div>
     <h1>Alunos DropGunAcademy</h1>
-    <table class="table table-striped">
+    <table class="table table-hover table-light">
         <thead>
             <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Cpf</th>
-                <th>Data de Nascimento</th>
-                <th>Endereço</th>
-                <th>Telefone</th>
-                <th>E-mail</th>
-                <th>Status</th>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Cpf</th>
+                <th scope="col">Data de Nascimento</th>
+                <th scope="col">Endereço</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Status</th>
+                <th scope="col">Opções</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var estudante in Model.Estudantes)
             {
                 <tr>
-                    <td>@estudante.id</td>
+                    <th scope="row">@estudante.id</th>
                     <td>@estudante.nome</td>
                     <td>@estudante.cpf</td>
                     <td>@estudante.dataNascimento.ToString("dd/MM/yyyy")</td>
@@ -40,6 +41,6 @@
             }
         </tbody>
     </table>
-    <a href="@Url.Action("Create")" class="btn btn-primary">Adicionar</a>
-    <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">Voltar</a>    
+    <a href="@Url.Action("Create")" class="btn btn-dark">Adicionar</a>
+    <a class="btn btn-light" asp-area="" asp-controller="Home" asp-action="Index">Voltar</a>    
 </div>
