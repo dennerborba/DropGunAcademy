@@ -1,0 +1,30 @@
+﻿@using DropGunAcademy.Models.Cursos
+@model CursosModel
+<div class="text-center">
+    <table class="table table-striped">
+        <h3>Carros</h3>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Ano</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var curso in Model.Cursos)
+            {
+                <tr>
+                    <td>@curso.ID</td>
+                    <td>@curso.Tipo</td>
+                    <td>@curso.Duracao</td>
+                    <td>@curso.Preco</td>
+                    <td>
+                        <a type="button" class="btn btn-warning" asp-controller="Carros" asp-action="Record" asp-route-id="@curso.ID">Editar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
