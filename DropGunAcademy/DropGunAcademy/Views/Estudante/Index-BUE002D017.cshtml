@@ -29,17 +29,12 @@
                         @if (estudante.status == 1) {
                             <span class="badge bg-success">Ativo</span>
                         } else {
-                            <span class="badge bg-danger">Inativo</span>
+                            <span class="badge bg-warning">Inativo</span>
                         }
                     </td>
-                    <td>
-                        <a type="button" class="btn btn-primary btn-sm" asp-controller="Estudante" asp-action="Editar" asp-route-id="@estudante.id">Editar</a>
-                        <a href="@Url.Action("Delete", new { id = estudante.id })" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir este Aluno?')">Excluir</a>
-                    </td>                    
+                    <td><a type="button" class="btn btn-primary" asp-controller="Estudante" asp-action="Editar" asp-route-id="@estudante.id">Editar</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="@Url.Action("Create")" class="btn btn-primary">Adicionar</a>
-    <a class="btn btn-secondary" asp-area="" asp-controller="Home" asp-action="Index">Voltar</a>    
 </div>
