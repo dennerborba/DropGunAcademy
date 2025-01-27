@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public string NomeAula { get; set; }
-        public DateTime DataAula { get; set; }
+        public DateOnly DataAula { get; set; }
 
     }
 }
