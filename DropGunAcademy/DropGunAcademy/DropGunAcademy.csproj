@@ -16,6 +16,7 @@
     <Content Remove="Views\Estudante\Index-BUE002D017.cshtml" />
     <Content Remove="Views\Estudante\Index1.cshtml" />
     <Content Remove="Views\Estudante\_Index.cshtml" />
+	<ProjectReference Include="..\DropGunAcademy.Utils\DropGunAcademy.Utils.csproj"/>
   </ItemGroup>
 
 </Project>

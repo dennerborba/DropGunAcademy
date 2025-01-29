@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropGunAcademy", "DropGunAcademy\DropGunAcademy.csproj", "{5D31036E-AAE4-4543-8965-C071693043E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D7E43947-FB23-4767-93D0-914298AFDADE} = {D7E43947-FB23-4767-93D0-914298AFDADE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropGunAcademy.Utils", "DropGunAcademy.Utils\DropGunAcademy.Utils.csproj", "{D7E43947-FB23-4767-93D0-914298AFDADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{5D31036E-AAE4-4543-8965-C071693043E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D31036E-AAE4-4543-8965-C071693043E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D31036E-AAE4-4543-8965-C071693043E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E43947-FB23-4767-93D0-914298AFDADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E43947-FB23-4767-93D0-914298AFDADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E43947-FB23-4767-93D0-914298AFDADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E43947-FB23-4767-93D0-914298AFDADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
