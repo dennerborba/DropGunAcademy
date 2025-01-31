@@ -18,4 +18,8 @@
     <Content Remove="Views\Estudante\_Index.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DropgunAcademy.Utils\DropgunAcademy.Utils.csproj" />
+  </ItemGroup>
+
 </Project>
