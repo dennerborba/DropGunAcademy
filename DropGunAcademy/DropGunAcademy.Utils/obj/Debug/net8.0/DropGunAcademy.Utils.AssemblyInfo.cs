@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DropGunAcademy.Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02290517349f08aa2c69349a5327e270e32f233e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20058824b6cc89c3e82d8df21a55699c66658a2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DropGunAcademy.Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DropGunAcademy.Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
