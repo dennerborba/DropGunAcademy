@@ -42,8 +42,8 @@ namespace DropGunAcademy.Controllers.Estudante
         //Alterar dodos do Aluno
         public IActionResult Editar(long id)
         {
-            var carroAtual = ListaEstudantes.FirstOrDefault(estudante => estudante.id == id);
-            return View(carroAtual);
+            var alunoAtual = ListaEstudantes.FirstOrDefault(estudante => estudante.id_aluno == id);
+            return View(alunoAtual);
         }
 
         // Exclui um Aluno
