@@ -1,6 +1,7 @@
 ﻿@using DropGunAcademy.Models.Estudante
+@model EstudantesModel
 <div>
-    <h1>Alunos DropGunAcademy</h1>
+    <h2 class="text-center">Lista de alunos</h2>
     <table class="table table-hover table-light">
         <thead>
             <tr>
@@ -19,23 +20,23 @@
             @foreach (var estudante in Model.Estudantes)
             {
                 <tr>
-                    <th scope="row">@estudante.id</th>
+                    <th scope="row">@estudante.id_aluno</th>
                     <td>@estudante.nome</td>
                     <td>@estudante.cpf</td>
-                    <td>@estudante.dataNascimento.ToString("dd/MM/yyyy")</td>
+                    <td>@estudante.data_nascimento.ToString("dd/MM/yyyy")</td>
                     <td>@estudante.endereco</td>
                     <td>@estudante.telefone</td>
                     <td>@estudante.email</td>
                     <td>
-                        @if (estudante.status == 1) {
+                        @if (estudante.situacao_registro == 1) {
                             <span class="badge bg-success">Ativo</span>
                         } else {
                             <span class="badge bg-danger">Inativo</span>
                         }
                     </td>
                     <td>
-                        <a type="button" class="btn btn-primary btn-sm" asp-controller="Estudante" asp-action="Editar" asp-route-id="@estudante.id">Editar</a>
-                        <a href="@Url.Action("Delete", new { id = estudante.id })" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir este Aluno?')">Excluir</a>
+                        <a type="button" class="btn btn-primary btn-sm" asp-controller="Estudante" asp-action="Editar" asp-route-id="estudante.id">Editar</a>
+                        <a href="@Url.Action("Delete", new { id = estudante })" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir este Aluno?')">Excluir</a>
                     </td>                    
                 </tr>
             }

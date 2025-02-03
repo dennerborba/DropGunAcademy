@@ -19,4 +19,8 @@
 	<ProjectReference Include="..\DropGunAcademy.Utils\DropGunAcademy.Utils.csproj"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DropgunAcademy.Utils\DropgunAcademy.Utils.csproj" />
+  </ItemGroup>
+
 </Project>
