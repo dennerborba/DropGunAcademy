@@ -1,4 +1,6 @@
-﻿namespace DropGunAcademy.Models.Aulas
+﻿using DropGunAcademy.Utils.Entities;
+
+namespace DropGunAcademy.Models.Aulas
 {
     public class AulaModel
     {
@@ -17,6 +19,9 @@
             
         }
 
-
+        public AulaModel (Aula aula)
+        {
+            Id = aula.I
+        }
     }
 }
